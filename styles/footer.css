@@ -1,0 +1,28 @@
+#footerDiv{
+  background-color: #cecece;
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+#footerEmail{
+  padding: 8px;
+  transition: 
+    box-shadow 0.25s,
+    background-color 0.25s,
+    font-size 0.25s;
+}
+
+#footerEmail:hover{
+  background-color: rgb(220, 220, 220);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+#footerEmail:active{
+  background-color: rgb(255, 255, 255);
+}

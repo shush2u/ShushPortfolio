@@ -9,6 +9,7 @@
   
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,13 +20,15 @@
 
   <body>
 
-    <div id="headerDiv">
+    <header id="headerDiv">
+
       <div id="profileLogoDiv">
         <img src="images/logo.png" alt="logo" id="profileLogoImg">
         <div id="logoTextDiv">
           <p>Shush</p>
         </div>
       </div>
+
       <div id="navDiv">
         <button>
           Home
@@ -37,16 +40,38 @@
           Contacts
         </button>
       </div>
+
       <div id="socialsDiv">
-        <img src="images/UI/github.svg" alt="My Github">
-        <img src="images/UI/facebook.svg" alt="My Facebook">
-        <img src="images/UI/linkedin.svg" alt="My LinkedIn">
+        <a href="https://github.com/shush2u">
+          <img src="images/UI/github.svg" alt="My Github" >
+        </a>
+        <a href="https://www.facebook.com/ArnasSiusa/">
+          <img src="images/UI/facebook.svg" alt="My Facebook">
+        </a>
+        <a href="https://www.linkedin.com/in/Arnas%C5%A0i%C5%AB%C5%A1a/">
+          <img src="images/UI/linkedin.svg" alt="My LinkedIn">
+        </a>
       </div>
-    </div>
+
+    </header>
     
     <div id="mainDiv">
-      
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero labore pariatur, dicta voluptatem adipisci hic temporibus? Maiores aut reiciendis velit? Aspernatur, dolores voluptates. Aliquam reprehenderit sunt, eveniet alias fugiat ea?</p>
     </div>
+
+    <div id="footerDiv">
+      <p>
+        <span style="padding: 10px;">
+          Copyright &#169; 2023 Arnas Šiūša
+        </span>
+         | 
+        <span id="footerEmail" onclick="sendEmail()">
+          arnassiusa@gmail.com
+        </span>
+      </p>
+    </div>
+
+    <script src="scripts/footer.js"></script>
 
   </body>
 
