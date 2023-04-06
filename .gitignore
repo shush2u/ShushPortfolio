@@ -46,3 +46,5 @@ _testmain.go
 #*.png
 #*.jpeg
 *.psd
+#code-workspace file
+*.code-workspace
