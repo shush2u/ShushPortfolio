@@ -1,0 +1,130 @@
+
+#headerDiv{
+  background-color: #cecece;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  z-index: 1;
+}
+
+#profileLogoDiv{
+  padding: 10px;
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profileLogoImg{
+  height: 70px;
+  margin: 5px 0 5px 0;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+#logoTextDiv{
+  padding: 5px 10px 5px 10px; /* top, right, bottom, left*/
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logoTextDiv p{
+  font-size: 32px;
+  font-family: 'Signika', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+#navDiv{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: 
+    flex-direction 0.5s;
+}
+
+@media (max-width: 700px) {
+  #navDiv{
+    flex-direction: column;
+  }
+  #navDiv button{
+    font-size: 10px;
+  }
+}
+
+#navDiv button{
+  background-color: inherit;
+  height: 60%;
+  min-width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  font-size: 24px;
+  font-family: 'Signika', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+
+  transition: 
+    box-shadow 0.25s,
+    background-color 0.25s,
+    font-size 0.25s;
+
+  border: none;
+}
+
+#navDiv button:hover{
+  background-color: rgb(220, 220, 220);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+#navDiv button:active{
+  background-color: rgb(255, 255, 255);
+}
+
+#socialsDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#socialsDiv img{
+  height: 50px;
+  padding: 10px;
+  margin: 0px 5px 0px 5px;
+  transition: 
+    box-shadow 0.25s,
+    background-color 0.25s;
+}
+
+#socialsDiv img:hover{
+  background-color: rgb(220, 220, 220);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+#socialsDiv img:active{
+  background-color: rgb(255, 255, 255);
+}
+
+#homeIcon{
+  height: 50px;
+}
+
+#mainDiv{
+  height: 200px;
+}
