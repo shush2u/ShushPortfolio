@@ -11,11 +11,38 @@ p{
   padding: 0;
 }
 
-#mainDiv
+#homeDiv
 {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+#homeIntroductionDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+#homeIntroductionDiv h1{
+  margin: 0;
+  padding: 10px;
+}
+#homeIntroductionDiv p{
+  font-size: 18px;
+  padding: 10px;
+  color: rgb(60, 60, 60);
+}
+
+#homeLogoDiv{
+  margin: 50px;
+}
+
+#homeLogoDiv img{
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.45);
 }
