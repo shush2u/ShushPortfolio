@@ -2,6 +2,8 @@
 #headerDiv{
   background-color: #cecece;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -19,6 +21,8 @@
   padding: 10px;
   width: 190px;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -47,16 +51,22 @@
 
 #navDiv{
   height: 100px;
+
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
   transition: 
     flex-direction 0.5s;
 }
 
 @media (max-width: 700px) {
   #navDiv{
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   #navDiv button{
