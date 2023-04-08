@@ -1,4 +1,5 @@
 #footerDiv{
+  margin-top: auto;
   background-color: #cecece;
   height: 3em;
   display: flex;

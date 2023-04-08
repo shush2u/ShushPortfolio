@@ -4,6 +4,10 @@ body{
   font-family: 'Signika', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(237, 237, 237);
   color: #000000;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 p{
@@ -13,7 +17,8 @@ p{
 
 #homeDiv
 {
-  margin-top: 100px;
+  height: 80vh;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,6 +35,7 @@ p{
 #homeIntroductionDiv h1{
   margin: 0;
   padding: 10px;
+  font-size: 42px;
 }
 #homeIntroductionDiv p{
   font-size: 18px;
